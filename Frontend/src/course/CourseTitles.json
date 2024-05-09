@@ -1,0 +1,1588 @@
+{ "email" : "kishan",
+  "module1": {
+    "title": "Introduction to Blockchain",
+    "completed": false,
+    "totalLessons": 7,
+    "lessons": {
+      "1.1": {
+        "type": "Learn",
+        "title": "Basics of Blockchain",
+        "completed": true,
+        "topics": [
+          {
+            "name": "Definition of Blockchain",
+            "completed": true
+          },
+          {
+            "name": "Core Principles",
+            "completed": true
+          },
+          {
+            "name": "Components of a Blockchain",
+            "completed": true
+          }
+        ]
+      },
+      "1.2": {
+        "type": "Learn",
+        "title": "History and Evolution",
+        "completed": true,
+        "topics": [
+          {
+            "name": "Origins of Blockchain",
+            "completed": true
+          },
+          {
+            "name": "Evolution from Bitcoin to Ethereum",
+            "completed": true
+          }
+        ]
+      },
+      "1.3": {
+        "type": "Learn",
+        "title": "Blockchain Ecosystem",
+        "completed": true,
+        "topics": [
+          {
+            "name": "Diverse Applications",
+            "completed": true
+          },
+          {
+            "name": "Industry Adoption",
+            "completed": true
+          },
+          {
+            "name": "Challenges and Opportunities",
+            "completed": true
+          }
+        ]
+      },
+      "1.4": {
+        "type": "Learn",
+        "title": "Types of Blockchains",
+        "completed": true,
+        "topics": [
+          {
+            "name": "Public vs. Private Blockchains",
+            "completed": true
+          },
+          {
+            "name": "Permissioned vs. Permissionless Blockchains",
+            "completed": true
+          }
+        ]
+      },
+      "1.5": {
+        "type": "Learn",
+        "title": "Blockchain in Society",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Economic and Social Implications",
+            "completed": true
+          },
+          {
+            "name": "Challenges and Ethical Considerations",
+            "completed": false
+          }
+        ]
+      },
+      "1.6": {
+        "type": "Learn",
+        "title": "Future Trends",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Integration with Emerging Technologies",
+            "completed": false
+          },
+          {
+            "name": "Interoperability Challenges",
+            "completed": false
+          }
+        ]
+      },
+      "1.7": {
+        "type": "Quick reload",
+        "title": "Quiz and Discussion",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Quiz",
+            "completed": false
+          },
+          {
+            "name": "Discussion",
+            "completed": false
+          }
+        ]
+      }
+    }
+  },
+  "module2": {
+    "title": "How Blockchain Works",
+    "completed": false,
+    "totalLessons": 7,
+    "lessons": {
+      "2.1": {
+        "type": "Learn",
+        "title": "Cryptography Fundamentals",
+        "completed": true,
+        "topics": [
+          {
+            "name": "Public and Private Keys",
+            "completed": false
+          },
+          {
+            "name": "Hash Functions and Digital Signatures",
+            "completed": false
+          },
+          {
+            "name": "Cryptographic Hashing Algorithms",
+            "completed": false
+          }
+        ]
+      },
+      "2.2": {
+        "type": "Learn",
+        "title": "Blockchain Components",
+        "completed": true,
+        "topics": [
+          {
+            "name": "Blocks, Chains, and Nodes",
+            "completed": false
+          },
+          {
+            "name": "Consensus Algorithms",
+            "completed": false
+          },
+          {
+            "name": "Decentralization in Action",
+            "completed": false
+          }
+        ]
+      },
+      "2.3": {
+        "type": "Learn",
+        "title": "Transaction Lifecycle",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Initiation and Validation",
+            "completed": false
+          },
+          {
+            "name": "Inclusion in a Block",
+            "completed": false
+          },
+          {
+            "name": "Confirmation and Immutability",
+            "completed": false
+          }
+        ]
+      },
+      "2.4": {
+        "type": "Learn",
+        "title": "Merkle Trees",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Structure and Purpose",
+            "completed": false
+          },
+          {
+            "name": "Verification Process",
+            "completed": false
+          }
+        ]
+      },
+      "2.5": {
+        "type": "Practical Demonstration",
+        "title": "Practical Demonstration",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Live Transaction and Block Creation",
+            "completed": false
+          },
+          {
+            "name": "Blockchain Explorer Usage",
+            "completed": false
+          }
+        ]
+      },
+      "2.6": {
+        "type": "Learn",
+        "title": "Challenges and Scalability",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Scalability Issues",
+            "completed": false
+          },
+          {
+            "name": "Solutions and Innovations",
+            "completed": false
+          }
+        ]
+      },
+      "2.7": {
+        "type": "Quiz and Discussion",
+        "title": "Quiz and Discussion",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Quiz",
+            "completed": false
+          },
+          {
+            "name": "Discussion",
+            "completed": false
+          }
+        ]
+      }
+    }
+  },
+  "module3": {
+    "title": "Types of Blockchains",
+    "completed": false,
+    "totalLessons": 7,
+    "lessons": {
+      "3.1": {
+        "type": "Learn",
+        "title": "Public vs. Private Blockchains",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Characteristics and Features",
+            "completed": false
+          },
+          {
+            "name": "Use Cases",
+            "completed": false
+          },
+          {
+            "name": "Security and Consensus Considerations",
+            "completed": false
+          }
+        ]
+      },
+      "3.2": {
+        "type": "Learn",
+        "title": "Permissioned vs. Permissionless",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Access Control and Governance",
+            "completed": false
+          },
+          {
+            "name": "Trade-offs and Considerations",
+            "completed": false
+          },
+          {
+            "name": "Examples and Case Studies",
+            "completed": false
+          }
+        ]
+      },
+      "3.3": {
+        "type": "Learn",
+        "title": "Consortium Blockchains",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Definition and Characteristics",
+            "completed": false
+          },
+          {
+            "name": "Industry Consortia",
+            "completed": false
+          },
+          {
+            "name": "Pros and Cons",
+            "completed": false
+          }
+        ]
+      },
+      "3.4": {
+        "type": "Learn",
+        "title": "Hybrid Blockchains",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Combining Public and Private Elements",
+            "completed": false
+          },
+          {
+            "name": "Use Cases and Applications",
+            "completed": false
+          },
+          {
+            "name": "Scalability and Interoperability",
+            "completed": false
+          }
+        ]
+      },
+      "3.5": {
+        "type": "Learn",
+        "title": "Blockchain Network Interoperability",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Interoperability Definition",
+            "completed": false
+          },
+          {
+            "name": "Standards and Protocols",
+            "completed": false
+          },
+          {
+            "name": "Cross-Chain Solutions",
+            "completed": false
+          }
+        ]
+      },
+      "3.6": {
+        "type": "Learn",
+        "title": "Regulatory Considerations",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Public Blockchain Regulations",
+            "completed": false
+          },
+          {
+            "name": "Privacy and Compliance in Private Blockchains",
+            "completed": false
+          },
+          {
+            "name": "Government and Industry Initiatives",
+            "completed": false
+          }
+        ]
+      },
+      "3.7": {
+        "type": "Quiz and Discussion",
+        "title": "Quiz and Discussion",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Quiz",
+            "completed": false
+          },
+          {
+            "name": "Discussion",
+            "completed": false
+          }
+        ]
+      }
+    }
+  },
+  "module4": {
+    "title": "Solidity Programming Language",
+    "completed": false,
+    "totalLessons": 8,
+    "lessons": {
+      "4.1": {
+        "type": "Learn",
+        "title": "Overview of Solidity",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Purpose in Blockchain Development",
+            "completed": false
+          },
+          {
+            "name": "Features and Design Principles",
+            "completed": false
+          },
+          {
+            "name": "Smart Contracts and Decentralized Applications (DApps)",
+            "completed": false
+          }
+        ]
+      },
+      "4.2": {
+        "type": "Learn",
+        "title": "Basic Solidity Syntax",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Variables and Data Types",
+            "completed": false
+          },
+          {
+            "name": "Functions and Control Structures",
+            "completed": false
+          },
+          {
+            "name": "Modifiers",
+            "completed": false
+          }
+        ]
+      },
+      "4.3": {
+        "type": "Learn",
+        "title": "Smart Contract Development",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Contract Structure",
+            "completed": false
+          },
+          {
+            "name": "Compiling and Deploying Contracts",
+            "completed": false
+          },
+          {
+            "name": "Interacting with Contracts",
+            "completed": false
+          }
+        ]
+      },
+      "4.4": {
+        "type": "Learn",
+        "title": "Solidity Best Practices",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Security Considerations",
+            "completed": false
+          },
+          {
+            "name": "Gas Optimization",
+            "completed": false
+          },
+          {
+            "name": "Code Auditing and Testing",
+            "completed": false
+          }
+        ]
+      },
+      "4.5": {
+        "type": "Learn",
+        "title": "Advanced Solidity Concepts",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Inheritance and Libraries",
+            "completed": false
+          },
+          {
+            "name": "Events and Logging",
+            "completed": false
+          },
+          {
+            "name": "Error Handling",
+            "completed": false
+          }
+        ]
+      },
+      "4.6": {
+        "type": "Learn",
+        "title": "Tools and Development Environments",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Remix IDE",
+            "completed": false
+          },
+          {
+            "name": "Truffle Framework",
+            "completed": false
+          },
+          {
+            "name": "Testing Frameworks",
+            "completed": false
+          }
+        ]
+      },
+      "4.7": {
+        "type": "Case Study",
+        "title": "Building a Simple Smart Contract",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Project Overview",
+            "completed": false
+          },
+          {
+            "name": "Step-by-Step Implementation",
+            "completed": false
+          }
+        ]
+      },
+      "4.8": {
+        "type": "Quiz and Discussion",
+        "title": "Quiz and Discussion",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Quiz",
+            "completed": false
+          },
+          {
+            "name": "Discussion",
+            "completed": false
+          }
+        ]
+      }
+    }
+  },
+  "module5": {
+    "title": "MetaMask Introduction",
+    "completed": false,
+    "totalLessons": 8,
+    "lessons": {
+      "5.1": {
+        "type": "Learn",
+        "title": "Overview of MetaMask",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Definition and Purpose",
+            "completed": false
+          },
+          {
+            "name": "Compatibility and Supported Networks",
+            "completed": false
+          },
+          {
+            "name": "User Interface and Features",
+            "completed": false
+          }
+        ]
+      },
+      "5.2": {
+        "type": "Learn",
+        "title": "Setting up MetaMask",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Installation",
+            "completed": false
+          },
+          {
+            "name": "Wallet Creation",
+            "completed": false
+          },
+          {
+            "name": "Network Connection",
+            "completed": false
+          }
+        ]
+      },
+      "5.3": {
+        "type": "Learn",
+        "title": "Interacting with DApps",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Connecting to DApps",
+            "completed": false
+          },
+          {
+            "name": "Making Transactions",
+            "completed": false
+          },
+          {
+            "name": "Managing Assets",
+            "completed": false
+          }
+        ]
+      },
+      "5.4": {
+        "type": "Learn",
+        "title": "Privacy and Security Considerations",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Securing Your Wallet",
+            "completed": false
+          },
+          {
+            "name": "Transaction Confirmation",
+            "completed": false
+          },
+          {
+            "name": "Avoiding Phishing Attacks",
+            "completed": false
+          }
+        ]
+      },
+      "5.5": {
+        "type": "Learn",
+        "title": "Advanced MetaMask Features",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Custom Networks",
+            "completed": false
+          },
+          {
+            "name": "WalletConnect",
+            "completed": false
+          },
+          {
+            "name": "Using Hardware Wallets",
+            "completed": false
+          }
+        ]
+      },
+      "5.6": {
+        "type": "Learn",
+        "title": "Troubleshooting and Support",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Common Issues",
+            "completed": false
+          },
+          {
+            "name": "Community and Documentation",
+            "completed": false
+          }
+        ]
+      },
+      "5.7": {
+        "type": "Case Study",
+        "title": "Interacting with a DApp",
+        "completed": false,
+        "topics": [
+          {
+            "name": "DApp Overview",
+            "completed": false
+          },
+          {
+            "name": "Step-by-Step Interaction",
+            "completed": false
+          }
+        ]
+      },
+      "5.8": {
+        "type": "Quiz and Discussion",
+        "title": "Quiz and Discussion",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Quiz",
+            "completed": false
+          },
+          {
+            "name": "Discussion",
+            "completed": false
+          }
+        ]
+      }
+    }
+  },
+  "module6": {
+    "title": "Decentralized Applications (DApps)",
+    "completed": false,
+    "totalLessons": 8,
+    "lessons": {
+      "6.1": {
+        "type": "Learn",
+        "title": "Understanding DApps",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Definition and Principles",
+            "completed": false
+          },
+          {
+            "name": "Key Characteristics",
+            "completed": false
+          },
+          {
+            "name": "Benefits for Users",
+            "completed": false
+          }
+        ]
+      },
+      "6.2": {
+        "type": "Learn",
+        "title": "Building and Deploying DApps",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Development Frameworks",
+            "completed": false
+          },
+          {
+            "name": "Smart Contracts Integration",
+            "completed": false
+          },
+          {
+            "name": "User Interface Design",
+            "completed": false
+          }
+        ]
+      },
+      "6.3": {
+        "type": "Learn",
+        "title": "DApp Development Platforms",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Ethereum and Smart Contracts",
+            "completed": false
+          },
+          {
+            "name": "Other Blockchain Platforms",
+            "completed": false
+          },
+          {
+            "name": "IPFS and Decentralized Storage",
+            "completed": false
+          }
+        ]
+      },
+      "6.4": {
+        "type": "Learn",
+        "title": "Challenges and Considerations",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Scalability Challenges",
+            "completed": false
+          },
+          {
+            "name": "User Adoption",
+            "completed": false
+          },
+          {
+            "name": "Regulatory Considerations",
+            "completed": false
+          }
+        ]
+      },
+      "6.5": {
+        "type": "Learn",
+        "title": "Successful DApp Examples",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Finance and DeFi DApps",
+            "completed": false
+          },
+          {
+            "name": "Gaming and NFT DApps",
+            "completed": false
+          },
+          {
+            "name": "Social and Governance DApps",
+            "completed": false
+          }
+        ]
+      },
+      "6.6": {
+        "type": "Learn",
+        "title": "Interacting with DApps using MetaMask",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Connecting MetaMask to DApps",
+            "completed": false
+          },
+          {
+            "name": "Making Transactions and Interactions",
+            "completed": false
+          }
+        ]
+      },
+      "6.7": {
+        "type": "Case Study",
+        "title": "Case Study: Building a Simple DApp",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Project Overview",
+            "completed": false
+          },
+          {
+            "name": "Step-by-Step Implementation",
+            "completed": false
+          }
+        ]
+      },
+      "6.8": {
+        "type": "Quiz and Discussion",
+        "title": "Quiz and Discussion",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Quiz",
+            "completed": false
+          },
+          {
+            "name": "Discussion",
+            "completed": false
+          }
+        ]
+      }
+    }
+  },
+  "module7": {
+    "title": "Blockchain Security",
+    "completed": false,
+    "totalLessons": 9,
+    "lessons": {
+      "7.1": {
+        "type": "Learn",
+        "title": "Security Challenges",
+        "completed": false,
+        "topics": [
+          {
+            "name": "51% Attacks",
+            "completed": false
+          },
+          {
+            "name": "Double Spending",
+            "completed": false
+          },
+          {
+            "name": "Sybil Attacks",
+            "completed": false
+          },
+          {
+            "name": "Smart Contract Vulnerabilities",
+            "completed": false
+          }
+        ]
+      },
+      "7.2": {
+        "type": "Learn",
+        "title": "Secure Development Practices",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Code Auditing and Testing",
+            "completed": false
+          },
+          {
+            "name": "Best Practices for Smart Contracts",
+            "completed": false
+          },
+          {
+            "name": "Formal Verification",
+            "completed": false
+          }
+        ]
+      },
+      "7.3": {
+        "type": "Learn",
+        "title": "Consensus Algorithm Security",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Proof of Work (PoW)",
+            "completed": false
+          },
+          {
+            "name": "Proof of Stake (PoS)",
+            "completed": false
+          },
+          {
+            "name": "Delegated Proof of Stake (DPoS)",
+            "completed": false
+          }
+        ]
+      },
+      "7.4": {
+        "type": "Learn",
+        "title": "Network Security Measures",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Firewalls and Encryption",
+            "completed": false
+          },
+          {
+            "name": "DDoS Mitigation",
+            "completed": false
+          },
+          {
+            "name": "Node Authentication",
+            "completed": false
+          }
+        ]
+      },
+      "7.5": {
+        "type": "Learn",
+        "title": "Privacy and Anonymity",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Privacy Coins",
+            "completed": false
+          },
+          {
+            "name": "Zero-Knowledge Proofs",
+            "completed": false
+          },
+          {
+            "name": "Challenges and Trade-offs",
+            "completed": false
+          }
+        ]
+      },
+      "7.6": {
+        "type": "Learn",
+        "title": "Post-Quantum Security",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Quantum Threats",
+            "completed": false
+          },
+          {
+            "name": "Quantum-Resistant Algorithms",
+            "completed": false
+          }
+        ]
+      },
+      "7.7": {
+        "type": "Learn",
+        "title": "Regulatory Compliance",
+        "completed": false,
+        "topics": [
+          {
+            "name": "AML and KYC Compliance",
+            "completed": false
+          },
+          {
+            "name": "Global Regulatory Landscape",
+            "completed": false
+          }
+        ]
+      },
+      "7.8": {
+        "type": "Case Study",
+        "title": "Security Incident Response",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Incident Identification",
+            "completed": false
+          },
+          {
+            "name": "Containment and Resolution",
+            "completed": false
+          }
+        ]
+      },
+      "7.9": {
+        "type": "Quiz and Discussion",
+        "title": "Quiz and Discussion",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Quiz",
+            "completed": false
+          },
+          {
+            "name": "Discussion",
+            "completed": false
+          }
+        ]
+      }
+    }
+  },
+  "module8": {
+    "title": "Use Cases and Industry Applications",
+    "completed": false,
+    "totalLessons": 10,
+    "lessons": {
+      "8.1": {
+        "type": "Learn",
+        "title": "Financial Sector",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Cryptocurrencies",
+            "completed": false
+          },
+          {
+            "name": "Cross-Border Payments",
+            "completed": false
+          },
+          {
+            "name": "Tokenization of Assets",
+            "completed": false
+          }
+        ]
+      },
+      "8.2": {
+        "type": "Learn",
+        "title": "Supply Chain and Logistics",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Traceability and Transparency",
+            "completed": false
+          },
+          {
+            "name": "Smart Contracts in Logistics",
+            "completed": false
+          },
+          {
+            "name": "Quality Assurance",
+            "completed": false
+          }
+        ]
+      },
+      "8.3": {
+        "type": "Learn",
+        "title": "Healthcare",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Patient Data Management",
+            "completed": false
+          },
+          {
+            "name": "Drug Traceability",
+            "completed": false
+          },
+          {
+            "name": "Clinical Trials and Research",
+            "completed": false
+          }
+        ]
+      },
+      "8.4": {
+        "type": "Learn",
+        "title": "Identity Management",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Decentralized Identity",
+            "completed": false
+          },
+          {
+            "name": "Secure Authentication",
+            "completed": false
+          },
+          {
+            "name": "Use Cases in Government Services",
+            "completed": false
+          }
+        ]
+      },
+      "8.5": {
+        "type": "Learn",
+        "title": "Real Estate",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Tokenization of Properties",
+            "completed": false
+          },
+          {
+            "name": "Smart Contracts in Real Estate Transactions",
+            "completed": false
+          },
+          {
+            "name": "Title Deed Management",
+            "completed": false
+          }
+        ]
+      },
+      "8.6": {
+        "type": "Learn",
+        "title": "Energy Trading",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Peer-to-Peer Energy Trading",
+            "completed": false
+          },
+          {
+            "name": "Grid Management and Efficiency",
+            "completed": false
+          },
+          {
+            "name": "Renewable Energy Certificates",
+            "completed": false
+          }
+        ]
+      },
+      "8.7": {
+        "type": "Learn",
+        "title": "Agriculture and Food Safety",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Supply Chain Traceability",
+            "completed": false
+          },
+          {
+            "name": "Smart Contracts for Payments",
+            "completed": false
+          },
+          {
+            "name": "Data Sharing in Agriculture",
+            "completed": false
+          }
+        ]
+      },
+      "8.8": {
+        "type": "Case Study",
+        "title": "Successful Blockchain Implementation",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Project Overview",
+            "completed": false
+          },
+          {
+            "name": "Implementation Challenges and Solutions",
+            "completed": false
+          },
+          {
+            "name": "Impact and Benefits",
+            "completed": false
+          }
+        ]
+      },
+      "8.9": {
+        "type": "Learn",
+        "title": "Future Trends in Industry Applications",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Integration with Emerging Technologies",
+            "completed": false
+          },
+          {
+            "name": "Interoperability Challenges and Solutions",
+            "completed": false
+          }
+        ]
+      },
+      "8.10": {
+        "type": "Quiz and Discussion",
+        "title": "Quiz and Discussion",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Quiz",
+            "completed": false
+          },
+          {
+            "name": "Discussion",
+            "completed": false
+          }
+        ]
+      }
+    }
+  },
+  "module9": {
+    "title": "Future Trends and Innovations",
+    "completed": false,
+    "totalLessons": 10,
+    "lessons": {
+      "9.1": {
+        "type": "Learn",
+        "title": "Decentralized Finance (DeFi) Evolution",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Expansion of DeFi Ecosystem",
+            "completed": false
+          },
+          {
+            "name": "Cross-Chain DeFi Solutions",
+            "completed": false
+          },
+          {
+            "name": "Integration with Traditional Finance",
+            "completed": false
+          }
+        ]
+      },
+      "9.2": {
+        "type": "Learn",
+        "title": "Non-Fungible Tokens (NFTs) Beyond Art",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Tokenization of Physical Assets",
+            "completed": false
+          },
+          {
+            "name": "NFTs in Gaming and Virtual Worlds",
+            "completed": false
+          },
+          {
+            "name": "NFTs for Intellectual Property",
+            "completed": false
+          }
+        ]
+      },
+      "9.3": {
+        "type": "Learn",
+        "title": "Blockchain and Internet of Things (IoT) Integration",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Secure Data Sharing",
+            "completed": false
+          },
+          {
+            "name": "Automated Transactions and Smart Contracts",
+            "completed": false
+          },
+          {
+            "name": "Supply Chain and Logistics Optimization",
+            "completed": false
+          }
+        ]
+      },
+      "9.4": {
+        "type": "Learn",
+        "title": "Central Bank Digital Currencies (CBDCs)",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Motivations for CBDCs",
+            "completed": false
+          },
+          {
+            "name": "Implementation Challenges",
+            "completed": false
+          },
+          {
+            "name": "Impact on Traditional Banking",
+            "completed": false
+          }
+        ]
+      },
+      "9.5": {
+        "type": "Learn",
+        "title": "Hybrid Blockchains and Interoperability",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Hybrid Models for Scalability",
+            "completed": false
+          },
+          {
+            "name": "Interoperability Protocols",
+            "completed": false
+          },
+          {
+            "name": "Cross-Platform Applications",
+            "completed": false
+          }
+        ]
+      },
+      "9.6": {
+        "type": "Learn",
+        "title": "Quantum-Resistant Cryptography",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Quantum Threats to Cryptography",
+            "completed": false
+          },
+          {
+            "name": "Research and Development of Quantum-Resistant Algorithms",
+            "completed": false
+          },
+          {
+            "name": "Implementation Challenges",
+            "completed": false
+          }
+        ]
+      },
+      "9.7": {
+        "type": "Learn",
+        "title": "Governance and DAOs",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Governance Tokens and Voting Mechanisms",
+            "completed": false
+          },
+          {
+            "name": "DAOs in Decision-Making",
+            "completed": false
+          },
+          {
+            "name": "Challenges and Innovations",
+            "completed": false
+          }
+        ]
+      },
+      "9.8": {
+        "type": "Learn",
+        "title": "Environmental Sustainability",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Transition to Proof of Stake",
+            "completed": false
+          },
+          {
+            "name": "Energy-Efficient Blockchain Solutions",
+            "completed": false
+          },
+          {
+            "name": "Carbon Offsetting Initiatives",
+            "completed": false
+          }
+        ]
+      },
+      "9.9": {
+        "type": "Learn",
+        "title": "Regulatory Developments",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Global Regulatory Trends",
+            "completed": false
+          },
+          {
+            "name": "Industry Compliance Standards",
+            "completed": false
+          }
+        ]
+      },
+      "9.10": {
+        "type": "Quiz and Discussion",
+        "title": "Quiz and Discussion",
+        "completed": false,
+        "topics": [
+          {
+            "name": "Quiz",
+            "completed": false
+          },
+          {
+            "name": "Discussion",
+            "completed": false
+          }
+        ]
+      }
+    }
+  },
+  "module10": {
+    "title": "Hands-on Projects and Case Studies",
+    "completed": false,
+    "totalLessons": 9,
+    "lessons": {
+      "10.1": {
+        "type": "Hands-On Project",
+        "title": "Smart Contract Development Project",
+        "completed": false,
+        "topics": {
+          "Project Overview": {
+            "completed": false
+          },
+          "Step-by-Step Implementation": {
+            "completed": false
+          },
+          "Testing and Debugging": {
+            "completed": false
+          }
+        }
+      },
+      "10.2": {
+        "type": "Hands-On Project",
+        "title": "Decentralized Application (DApp) Implementation",
+        "completed": false,
+        "topics": {
+          "Choosing a DApp Project": {
+            "completed": false
+          },
+          "Frontend and Backend Development": {
+            "completed": false
+          },
+          "Testing and Deployment": {
+            "completed": false
+          }
+        }
+      },
+      "10.3": {
+        "type": "Case Study",
+        "title": "MetaMask Integration Case Study",
+        "completed": false,
+        "topics": {
+          "Project Overview": {
+            "completed": false
+          },
+          "Integration Steps": {
+            "completed": false
+          },
+          "Security Considerations": {
+            "completed": false
+          }
+        }
+      },
+      "10.4": {
+        "type": "Simulation",
+        "title": "Blockchain Security Audit",
+        "completed": false,
+        "topics": {
+          "Audit Process Overview": {
+            "completed": false
+          },
+          "Identifying Vulnerabilities": {
+            "completed": false
+          },
+          "Report and Recommendations": {
+            "completed": false
+          }
+        }
+      },
+      "10.5": {
+        "type": "Case Study",
+        "title": "Industry Use Case Analysis",
+        "completed": false,
+        "topics": {
+          "Selecting Use Cases": {
+            "completed": false
+          },
+          "Analyzing Implementation": {
+            "completed": false
+          },
+          "Presentation and Discussion": {
+            "completed": false
+          }
+        }
+      },
+      "10.6": {
+        "type": "Group Project",
+        "title": "Group Blockchain Project",
+        "completed": false,
+        "topics": {
+          "Project Definition": {
+            "completed": false
+          },
+          "Group Collaboration": {
+            "completed": false
+          },
+          "Project Presentation": {
+            "completed": false
+          }
+        }
+      },
+      "10.7": {
+        "type": "Reflection and Review",
+        "title": "Reflection and Peer Review",
+        "completed": false,
+        "topics": {
+          "Individual Reflection": {
+            "completed": false
+          },
+          "Peer Review": {
+            "completed": false
+          }
+        }
+      },
+      "10.8": {
+        "type": "Assessment",
+        "title": "Final Assessment and Certification",
+        "completed": false,
+        "topics": {
+          "Final Assessment": {
+            "completed": false
+          },
+          "Certification": {
+            "completed": false
+          }
+        }
+      },
+      "10.9": {
+        "type": "Graduation and Future Opportunities",
+        "title": "Graduation and Future Opportunities",
+        "completed": false,
+        "topics": {
+          "Graduation Ceremony": {
+            "completed": false
+          },
+          "Guest Speakers": {
+            "completed": false
+          },
+          "Networking Opportunities": {
+            "completed": false
+          }
+        }
+      }
+    }
+  },
+  "module11": {
+    "title": "Final Assessment and Certification",
+    "completed": false,
+    "totalLessons": 5,
+    "lessons": {
+      "11.1": {
+        "type": "Review",
+        "title": "Exam Preparation",
+        "completed": false,
+        "topics": {
+          "Review Sessions": {
+            "completed": false
+          },
+          "Practice Questions": {
+            "completed": false
+          }
+        }
+      },
+      "11.2": {
+        "type": "Exam",
+        "title": "Final Exam",
+        "completed": false,
+        "topics": {
+          "Exam Format": {
+            "completed": false
+          },
+          "Comprehensive Coverage": {
+            "completed": false
+          }
+        }
+      },
+      "11.3": {
+        "type": "Assessment",
+        "title": "Practical Assessment",
+        "completed": false,
+        "topics": {
+          "Coding Challenges": {
+            "completed": false
+          },
+          "Project Evaluation": {
+            "completed": false
+          }
+        }
+      },
+      "11.4": {
+        "type": "Presentation",
+        "title": "Final Project Presentations",
+        "completed": false,
+        "topics": {
+          "Presentation Guidelines": {
+            "completed": false
+          },
+          "Q&A Session": {
+            "completed": false
+          }
+        }
+      },
+      "11.5": {
+        "type": "Certification Criteria",
+        "title": "Certification Criteria",
+        "completed": false,
+        "topics": {
+          "Grading Policy": {
+            "completed": false
+          },
+          "Attendance and Participation": {
+            "completed": false
+          }
+        }
+      }
+    }
+  }
+}
