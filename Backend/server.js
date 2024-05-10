@@ -10,7 +10,7 @@ dotenv.config();
 const app = express();
 app.use(cors(
   {
-    origin: ["blockchain-course-api.vercel.app"],
+    origin: ["https://blockchain-course-api.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true,
   }
