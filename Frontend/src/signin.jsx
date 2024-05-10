@@ -313,7 +313,7 @@ const MainRegisterSection = (promps) => {
   
 
   const onSubmit = async (e) => {
-    const user = await checkUserExists(email);
+    let user = await checkUserExists(email);
     if (user != null) {
       console.log("user exeist :", user.email);
       userDetail.setName(user.name);

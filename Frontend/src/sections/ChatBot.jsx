@@ -3,6 +3,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import { IoIosSend } from "react-icons/io";
 import ReactLoading from "react-loading";
 import { IoClose } from "react-icons/io5";
+import { FaCross } from "react-icons/fa";
 
 const InputFieldStyle = {
   padding: "8px",
@@ -16,7 +17,7 @@ const InputFieldStyle = {
   outline: "2px solid transparent",
 };
 
-function ChatBot() {
+function ChatBot({setShowChatBot}) {
   const [userInput, setUserInput] = useState("");
   const [messages, setMessages] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -75,6 +76,9 @@ function ChatBot() {
 
   return (
     <div className="absolute bottom-0 right-0 m-8  z-20 w-[360px] bg-primary rounded-2xl ring-[6px]  justify-end ring-mid-purple shadow-2xl shadow-extra-dark-purple">
+      <div className="absolute right-3 top-3">
+      <IoClose className="text-[22px] cursor-pointer" onClick={() => setShowChatBot(false)}/>
+      </div>
       <div
         className="chat-box flex-1 mx-3 mt-2 h-[calc(100vh-225px)] overflow-y-auto justify-end"
         style={{ scrollbarWidth: "none" }}

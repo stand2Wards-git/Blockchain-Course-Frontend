@@ -41,7 +41,7 @@ const RightModuleContainer = ({ index: index, toggleRightPannel:toggleRightPanne
         <M1 moduleIndex={index+1}/> 
       </div>
       {showChatBot ? 
-      <ChatBot />
+      <ChatBot setShowChatBot={setShowChatBot} />
       :
       <div className="absolute bottom-[40px] right-[50px] cursor-pointer hover:ring-2 ring-light-gray bg-light-purple p-4 rounded-lg" onClick={() => {setShowChatBot(true)}}>
         <GoDiscussionDuplicate className="text-[26px]"/>

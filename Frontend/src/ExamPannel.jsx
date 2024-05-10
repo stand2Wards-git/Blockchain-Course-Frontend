@@ -4,6 +4,8 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import { MdKeyboardArrowLeft } from "react-icons/md";
 import { FaFontAwesomeFlag } from "react-icons/fa";
 import { IoArrowForwardOutline } from "react-icons/io5";
+import { Link } from 'react-router-dom';
+import Loading from './globle/Loading';
 
 
 function ExamPannel(params) {
@@ -66,7 +68,7 @@ function ExamPannel(params) {
       onNextQue={onNextQue}
       />
     </div>
-    :<h1>Loading</h1>
+    :<Loading/> 
   )
 }
 
@@ -104,7 +106,10 @@ function NavBarExam(props) {
   return (
     <div className='text-white bg-mid-purple border border-primary border-t-0 border-r-0 border-l-0 border-b-1' style={{ display: "flex", padding: "8px 16px", justifyContent: "space-between", alignItems: "center"}}>
       <div style={{ display: "flex", alignItems: "center" }}>
+        <Link to={"/"} >
+
         <RxCross1 style={{ fontSize: "25px" }} />
+        </Link>
         <span className='font-semibold' style={{ marginLeft: "16px" }}>Discovering HTML and tags</span>
       </div>
       <div style={{ width: "60%", display: "flex", alignItems: "center" }}>
