@@ -12,7 +12,7 @@ app.use(cors(
   {
     origin: ["blockchain-course-api.vercel.app"],
     methods: ["POST", "GET"],
-    credentials: true
+    credentials: true,
   }
 ));
 
