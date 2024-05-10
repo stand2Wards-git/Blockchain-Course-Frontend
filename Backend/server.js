@@ -8,7 +8,13 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const app = express();
-app.use(cors());
+app.use(cors(
+  {
+    origin: ["blockchain-course-api.vercel.app"],
+    methods: ["POST", "GET"],
+    credentials: true,
+  }
+));
 
 // Connect to MongoDB Atlas
 const mongoURI = process.env.MONGODB_URL; // Use environment variable
@@ -21,6 +27,10 @@ mongoose
   .catch((err) => console.error("MongoDB connection error:", err));
 
 const client = new MongoClient(mongoURI);
+
+app.get("/", function(req, res) {
+  res.json({hello: "hello"})
+})
 
 app.get("/modules/:email", async (req, res) => {
   const urlemail = req.params.email; // Get email from URL parameter
