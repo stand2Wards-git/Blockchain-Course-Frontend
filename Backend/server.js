@@ -2,8 +2,6 @@ import express from "express";
 import mongoose from "mongoose";
 import cors from "cors";
 import { MongoClient } from "mongodb";
-import fs from "fs";
-import { courseTitles } from "./course/CourseTitles.js";
 import dotenv from "dotenv";
 
 // Load environment variables from .env file

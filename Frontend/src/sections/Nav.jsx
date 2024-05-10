@@ -4,6 +4,7 @@ import { CgProfile } from "react-icons/cg";
 import { useState } from "react";
 
 import { Link } from "react-router-dom";
+import { CURRENT_NAV_PAGE } from "../globle/globleVariable";
 
 const Nav = () => {
   const [selected, setSelected] = useState("learn");
@@ -24,12 +25,13 @@ const Nav = () => {
         <Link to="/"> 
           <span
             className={`${
-              selected === "learn"
+              CURRENT_NAV_PAGE === "learn"
                 ? "text-white border-y-2 border-t-0 pb-[13px] border-light-purple"
                 : "text-light-gray"
             } mr-3 cursor-pointer p-1`}
             onClick={() => {
               setSelected('learn');
+              CURRENT_NAV_PAGE = "learn"
             }}
           >
             learn
@@ -37,10 +39,11 @@ const Nav = () => {
           </Link>
           <Link to="/leaderboard"  onClick={() => {
               setSelected('leaderBoard');
+              CURRENT_NAV_PAGE = "leaderBoard"
             }}> 
                   <span
             className={`${
-              selected === "leaderBoard"
+              CURRENT_NAV_PAGE === "leaderBoard"
                 ? "text-white border-y-2 border-t-0 pb-[13px] border-light-purple  "
                 : "text-light-gray"
             } cursor-pointer p-1`}

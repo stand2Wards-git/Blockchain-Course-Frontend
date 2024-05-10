@@ -1,1 +1,1 @@
-export const atlasUri = "mongodb+srv://kishanvyas308:apple007@testing.fxyrijs.mongodb.net/";
+export let CURRENT_NAV_PAGE = "learn";

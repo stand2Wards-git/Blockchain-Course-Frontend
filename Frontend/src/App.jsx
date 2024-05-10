@@ -13,6 +13,7 @@ import Leaderboard from "./sections/LeaderBord.jsx";
 import ChatBot from "./sections/ChatBot.jsx";
 import Home from "./Home.jsx";
 import UserContext from "./context/userDetail/UserContext.jsx";
+import { RecoilRoot } from "recoil";
 
 const App = () => {
   const userDetail = useContext(UserContext);
@@ -51,7 +52,9 @@ const App = () => {
   ]);
   return (
     <div>
-      <RouterProvider router={router} />
+    
+        <RouterProvider router={router} />
+     
     </div>
   );
 };

@@ -12,6 +12,7 @@ import { FaCheck } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { IoClose } from "react-icons/io5";
 import UserContext from "../../context/userDetail/UserContext";
+import Loading from "../../globle/Loading";
 
 const M1 = ({ moduleIndex: moduleIndex }) => {
   const [CD, setCD] = useState(null);
@@ -23,7 +24,7 @@ const M1 = ({ moduleIndex: moduleIndex }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/modules/${userDetail.email}`);
+        const response = await fetch(`http://localhost:5000/modules/kishanvyas309@gmail.com`);
         const data = await response.json();
         console.log(data)
         setCD(data);
@@ -394,7 +395,7 @@ const M1 = ({ moduleIndex: moduleIndex }) => {
       
         </div>
       ) : (
-        <p>Loading</p>
+        <Loading />
       )}
       {open === true ? (
         <div className="fixed inset-0 flex items-center justify-center z-50 bg-gray-900 bg-opacity-50">
